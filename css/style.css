@@ -1,0 +1,190 @@
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #E2C6C6;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+header{
+    background-image: url(../images/header.png);
+    background-size: cover;
+    height: 119px;
+    color:#E2C6C6;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.headfoot{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#header2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hello{
+    color: black;
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse; 
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#hello-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+#about{
+    background-image: url(../images/green\ background.png);
+    background-size: cover;
+    height: 786px;
+    color: white;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+#skills{
+    background-image: url(../images/orange\ background.png);
+    background-size: cover;
+    height: 808px;
+    color: white;
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#skills2{
+    display: flex;
+    flex-direction: column; 
+}
+
+#work{
+    background-image: url(../images/purple\ background.png);
+    background-size: cover;
+    height: 1804px;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#watchify{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: right;
+    align-items: center;
+
+}
+
+#watchify-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+#narika{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: right;
+    align-items: center;
+
+}
+
+#narika-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+#depted{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: right;
+    align-items: center;
+
+}
+
+#depted-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+#htr{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: right;
+    align-items: center;
+
+}
+
+#htr-text{
+    display: flex;
+    flex-direction: column; 
+}
+
+footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
