@@ -120,6 +120,7 @@ header ul{
     background-image: url(../images/gb2.png);
     background-size: cover;
     height: 787px;
+    /*width: 100vw;*/
     color: white;
     display: flex;
     flex-direction: row; 
