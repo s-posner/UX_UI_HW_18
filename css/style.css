@@ -1,7 +1,7 @@
 p {
     font-family: 'EB Garamond', serif;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 body {
@@ -13,7 +13,7 @@ h1{
     font-size: 36px;
     display: inline-block;
     margin-left: 10px;
-    line-height: 150%;
+    line-height: 125%;
     font-weight: 600;
 }
 
@@ -21,14 +21,14 @@ h2{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 36px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 125%;
 }
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     font-weight: normal;
-    line-height: 150%;
+    line-height: 125%;
 }
 
 h4 {
@@ -88,10 +88,10 @@ header ul{
     width: 414px;
 }
 
-#about{
-    background-image: url(../images/green\ background.png);
+#narika{
+    background-image: url(../images/gb2.png);
     background-size: cover;
-    height: 786px;
+    height: 787px;
     color: white;
     display: flex;
     flex-direction: row; 
@@ -99,13 +99,13 @@ header ul{
     align-items: center;
 }
 
-#about-text{
+#narika-text{
     display: flex;
     flex-direction: column; 
 }
 
-#skills{
-    background-image: url(../images/orange\ background.png);
+#watchify{
+    background-image: url(../images/ob2.png);
     background-size: cover;
     height: 808px;
     color: white;
@@ -116,7 +116,7 @@ header ul{
     align-items: center;
 }
 
-#skills2{
+#watchify-text{
     display: flex;
     flex-direction: column; 
 }
@@ -132,7 +132,7 @@ header ul{
     justify-content: space-evenly;
 }
 
-#watchify{
+#watchify2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -141,12 +141,12 @@ header ul{
 
 }
 
-#watchify-text{
+#watchify-text2{
     display: flex;
     flex-direction: column; 
 }
 
-#narika{
+#narika2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -155,7 +155,7 @@ header ul{
 
 }
 
-#narika-text{
+#narika-text2{
     display: flex;
     flex-direction: column; 
 }
