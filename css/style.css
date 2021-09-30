@@ -206,3 +206,26 @@ footer ul{
     flex-direction: row; 
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px){
+
+    #hello{
+        color: black;
+        display: flex;
+        text-align: left;
+        flex-direction: column; 
+        justify-content:left;
+        height: auto;
+        width: 100%;
+        align-items: left;
+        margin-left: 60px;
+        margin-right: 60px;
+
+    }
+    
+    #hello-text{
+        display: flex;
+        flex-direction: column; 
+    }
+
+}
