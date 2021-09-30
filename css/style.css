@@ -228,4 +228,24 @@ footer ul{
         flex-direction: column; 
     }
 
+    header{
+        background-image: url(../images/header.png);
+        background-size: cover;
+        height: auto;
+        color:#E2C6C6; 
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        align-items: right;
+        text-align: right;
+    }
+
 }
