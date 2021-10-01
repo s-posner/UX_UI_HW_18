@@ -117,7 +117,7 @@ header ul{
 }
 */
 
-#work-narika{
+#narika{
     background-image: url(../images/gb2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,12 +132,7 @@ header ul{
     margin-bottom: -150px; 
 } 
 
-#work-text{
-    display: flex;
-    flex-direction: column; 
-}
-
-#work-narika img{
+#narika img{
     height: 300px;
     width: auto;
 }
@@ -256,24 +251,6 @@ footer ul{
         justify-content: space-between;
         align-items: right;
         text-align: right;
-    }
-
-    #work-narika{
-        background-image: url(../images/gb2.png);
-        background-size: cover;
-        height: auto;
-        color: white;
-        display: flex;
-        flex-direction: column; 
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 0;
-        margin-bottom: -150px; 
-    } 
-    
-    #work-text{
-        display: flex;
-        flex-direction: column; 
     }
 
 }
