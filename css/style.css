@@ -122,7 +122,6 @@ header ul{
     background-repeat: no-repeat;
     background-size: cover;
     height: 787px;
-    /*width: 100vw;*/
     color: white;
     display: flex;
     flex-direction: row; 
